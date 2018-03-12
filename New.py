@@ -44,7 +44,7 @@ class MoExample (rockBlockProtocol):
                 file = open("logfile.txt","a")
                 file.write("It failed bro")
                 file.close()
-		MoExample().main()
+		
 
         def rockBlockTxSuccess(self,momsn):
                 print "rockBlockTxSuccess " + str(momsn)
